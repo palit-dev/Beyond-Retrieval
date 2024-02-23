@@ -11,17 +11,17 @@ This work defines a novel task of topic-based alignment of scientific papers to 
 
 ## Datasets
 
-* [df_target_proposals](Datasets\df_target_proposals.pkl) : Metadata about the Target Proposals/Papers used.
+* [df_target_proposals](Datasets) : Metadata about the Target Proposals/Papers used.
 
-* [df_train_classifier](Datasets\df_train_classifier.pkl) : Training split for fine-tuning Flan-T5 and RoBERTa models as Reference Paper Topic Classifier (TC).
+* [df_train_classifier](Datasets) : Training split for fine-tuning Flan-T5 and RoBERTa models as Reference Paper Topic Classifier (TC).
 
-* [df_val_classifier](Datasets\df_val_classifier.pkl) : Validation split for evaluating models during Reference Paper TC training.
+* [df_val_classifier](Datasets) : Validation split for evaluating models during Reference Paper TC training.
 
-* [df_train_retriever](Datasets\df_train_retriever.pkl) : Training split for fine-tuning T5 model for Topic-based Citation Text Span Retrieval (TR).
+* [df_train_retriever](Datasets) : Training split for fine-tuning T5 model for Topic-based Citation Text Span Retrieval (TR).
 
-* [df_val_retriever](Datasets\df_val_retriever.pkl) : Validation split for evaluating models during TR training.
+* [df_val_retriever](Datasets) : Validation split for evaluating models during TR training.
 
-* [df_test](Datasets\df_test.pkl) : Test split for evaluating models.
+* [df_test](Datasets) : Test split for evaluating models.
 
 For more details, read [Datasets](Datasets)
 
@@ -97,6 +97,10 @@ Visit [Inference](Inference) for more details.
 
 ### Evaluation
 
-Scripts to evaluate model perfomance. For more details, visit [Evaluation](Evaluation).
+The directory contains scripts to evaluate model perfomance of the Reference Paper Topic Classifier as an independent or as part of the pipeline. For more details, visit [Evaluation](Evaluation).
+
+### PDF Extractor
+
+The [script](pdf_extractor.py) used to extract the content from the Reference Paper PDF Files.
 
 
