@@ -2,9 +2,8 @@
 
 Welcome to the repository's datasets section. Here, you'll find a comprehensive collection of datasets proposed in our paper and utilized for the finetuning of the proposed supervised models.
 
-## Description of Datasets
 
-### Target Proposals
+## Target Proposals
 
 This [dataset](df_target_proposals.pkl) encompasses essential metadata for target papers/proposals:
 
@@ -66,6 +65,7 @@ This [dataset](df_validation_retriever.pkl) comprises samples for validating the
 This [dataset](df_test.pkl) includes samples for testing both the Topic-based Citation Text Span Retrieval and Reference Paper Topic Classifier Models:
 
 * **citation_text_span** : Citation Text Span retrieved from the Reference Paper using Mono-T5 retriever with citation text as the query.
+
 
 ## Additional Datasets
 
